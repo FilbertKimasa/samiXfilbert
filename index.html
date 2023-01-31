@@ -1,45 +1,48 @@
 <html>
     <head>
         <title>survey form</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
-    <main>
-        <body>
-            <header>
-            <h1 id="title">FreeCode camp Survey Form</h1>
-            <p id="description">Thank you for taking the time to help us improve the platform </p>
-            </header>
-            <form id="survey-form">
-              <label for="name" id="name-label">*Name</label>
-               <input required id="name" type="text" placeholder="Enter your name ">
-               <label for="email" id="email-label">*Email</label> 
-               <input required id="email" type="email" placeholder="Email">
-               <label for="age" id="number-label">age</label>
-               <input type="number" id="age" type="range" min="13" max="100" placeholder="Age">
-               <p>Most often i track activities by</p>
-               <select id="dropdown">
-                <option >Time spent</option>
-                <option >Number of times completed</option>
-                <option >location</option>
-                <option >Time of day</option>
-                <option >Theme</option>
-                <option >project</option>
-               </select>
-               <p>would prefer to recieve notification via</p>
-               <input type="radio" name="notification" id="app-notification" value="app"cheaked>
-               <label for="app-notification">App</label>
-               <input type="radio" id="email-notification" name="notification" value="email">
-               <label for="email-notification">Email</label>
-               <p>I am interested in tracking</p>
-               <input type="checkbox" id="projects" value="project">
-               <label for="physical-fitness">Physical fitness</label>
-               <input type="checkbox" id="costumer-contacts" value="costumer-contacts">
-               <label for="costumer-contacts">costumer contacts</label>
-               <button id="submit" type="submit">submit</button>
-
-
-
-
-            </form>
-        </body>
-    </main>
+    <body>
+        <div class="wraper">
+            <main >
+                <header>
+                <h1 id="title">FreeCode camp Survey Form</h1>
+                <p id="description">Thank you for taking the time to help us improve the platform </p>
+                </header>
+                <form id="survey-form">
+                  <label for="name" id="name-label">*Name</label><br/>
+                   <input required id="name" type="text" placeholder="Enter your name "><br/>
+                   <label for="email" id="email-label">*Email</label><br/>
+                   <input required id="email" type="email" placeholder="Email"><br/>
+                   <label for="age" id="number-label">age</label><br/>
+                   <input type="number" id="age" type="range" min="13" max="100" placeholder="Age">
+                   <p>Most often i track activities by</p><br/>
+                   <select id="dropdown">
+                    <option >Time spent</option>
+                    <option >Number of times completed</option>
+                    <option >location</option>
+                    <option >Time of day</option>
+                    <option >Theme</option>
+                    <option >project</option>
+                   </select>
+                   <p>would prefer to recieve notification via</p>
+                   <input type="radio" name="notification" id="app-notification" value="app"cheaked>
+                   <label for="app-notification">App</label><br/>
+                   <input type="radio" id="email-notification" name="notification" value="email">
+                   <label for="email-notification">Email</label><br/>
+                   <p>I am interested in tracking</p>
+                   <input type="checkbox" id="projects" value="project">
+                   <label for="physical-fitness">Physical fitness</label><br/>
+                   <input type="checkbox" id="costumer-contacts" value="costumer-contacts">
+                   <label for="costumer-contacts">costumer contacts</label><br/>
+                   <textarea cols="30" rows="10"></textarea><br/>
+                   <button id="submit" type="submit">submit</button>
+    
+    
+                </form>
+            </main> 
+        </div>
+        
+    </body>
 </html>
