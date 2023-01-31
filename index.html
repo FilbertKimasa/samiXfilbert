@@ -16,8 +16,8 @@
                    <label for="email" id="email-label">*Email</label><br/>
                    <input required id="email" type="email" placeholder="Email"><br/>
                    <label for="age" id="number-label">age</label><br/>
-                   <input type="number" id="age" type="range" min="13" max="100" placeholder="Age">
-                   <p>Most often i track activities by</p><br/>
+                   <input type="number" id="age" type="range" min="13" max="100" placeholder="Age"><br/><br/>
+                   <p>Most often I track activities by</p>
                    <select id="dropdown">
                     <option >Time spent</option>
                     <option >Number of times completed</option>
@@ -26,20 +26,35 @@
                     <option >Theme</option>
                     <option >project</option>
                    </select>
-                   <p>would prefer to recieve notification via</p>
-                   <input type="radio" name="notification" id="app-notification" value="app"cheaked>
-                   <label for="app-notification">App</label><br/>
-                   <input type="radio" id="email-notification" name="notification" value="email">
-                   <label for="email-notification">Email</label><br/>
-                   <p>I am interested in tracking</p>
-                   <input type="checkbox" id="projects" value="project">
-                   <label for="physical-fitness">Physical fitness</label><br/>
-                   <input type="checkbox" id="costumer-contacts" value="costumer-contacts">
-                   <label for="costumer-contacts">costumer contacts</label><br/>
+                   
+                   <table>
+                    <tr><br/>
+                        <td><p>would prefer to recieve notification via</p></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="notification" id="app-notification" value="app"cheaked></td>
+                        <td><label for="app-notification">App</label><td/>
+                    </tr></br>
+                    <tr>
+                        <td><input type="radio" id="email-notification" name="notification" value="email"></td>
+                        <td><label for="email-notification">Email</label><td/>
+                    </tr>
+                    <tr>
+                         <td><p>I am interested in tracking</p></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="projects" value="project"></td>
+                        <td><label for="physical-fitness">Physical fitness</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="costumer-contacts" value="costumer-contacts"></td>
+                        <td><label for="costumer-contacts">costumer contacts</label><br/></td>
+                    </tr>
+                   </table>
+                   
+                   <br/>
                    <textarea cols="30" rows="10"></textarea><br/>
                    <button id="submit" type="submit">submit</button>
-    
-    
                 </form>
             </main> 
         </div>
